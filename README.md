@@ -1,21 +1,15 @@
-# templates-default
+# GitHub Community Health Files
 
 ## What is this?
 
-A template repository for all SEMDATEX repositories. There may be more specific templates for certain types of
-repositories, but this is the default template for all repositories, including other templates.
+This is a special repository that GitHub users to apply default community health files to all repositories in an organization.
+
+More info here: https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file
 
 ## Why do we need a default template repository?
 
-- As a team we should have a way to converge our newest best practices. This repository template allows us to make sure
-that all new repositories are created with the same basic configuration.
-- Every new repository must containe a CODEOWNERS file that protects certain sensitive files from being edited without approval.
+Have a single source of truth for our pull-request templates.
 
 ## How is this used?
 
-When creating a new repository, you can select this repository as a template. This will create a new repository with
-the same file as this repository, but with the name of the new repository. Just like a repository fork, but without
-the history of this repository.
-
-This readme is also replicated in all newly created repositories. Users are expected to edit this readme, but still keep
-the same outline structure that addresses the What, Why and How questions.
+https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates
