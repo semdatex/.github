@@ -1,0 +1,17 @@
+name: Detect Merge Commits
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  no-merge-commits:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check for merge commits
+        uses: semdatex/no-merge-commits@ce0a2776bf81f53ecfc767f900b6fe7efc997547 # TODO udpate reference once there is a release
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
