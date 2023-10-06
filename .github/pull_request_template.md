@@ -19,6 +19,7 @@
 <!-- Mark all the done checkboxes with an x -->
 - [ ] I have provided a detailed description of this PR above.
 - [ ] I have extended all predefined checklist in this PR description to provide an exhaustive list of todos. Including a list of things that need to be tested manually, in addition to automated tests.
+- [ ] I added a link to the Jira issue to the file change log.
 <!-- If this PR is based on another branch that has not been merged yet include this checkbox: -->
 - [ ] Base branch #0 has been merged.
 <!-- Otherwise remove the above checkbox -->
