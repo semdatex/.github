@@ -26,7 +26,7 @@
 
 - [ ] I have provided a detailed description of this PR above.
 - [ ] I have extended all predefined checklist in this PR description to provide an exhaustive list of todos. Including a list of things that need to be tested manually, in addition to automated tests.
-- [ ] Add the task Jira link to the file change log.
+- [ ] Add the task Jira link to the to german and english file change log.
 <!-- If this PR is based on another branch that has not been merged yet include this checkbox: -->
 - [ ] Base branch #0 has been merged.
 <!-- Otherwise remove the above checkbox -->
